@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[\documentclass[10pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{libertine}
+
+\author{Matteo Sostero}
+\date{\today}
+
+\begin{document}
+
+$1
+
+\end{document}
+
+]]></content>
+	<tabTrigger>art</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>XeLaTeX article preamble</description>
+</snippet>

@@ -1,0 +1,16 @@
+{
+	"extensions":
+	[
+		"aux",
+		"cls",
+		"dtx",
+		"ins",
+		"log",
+		"out",
+		"snm",
+		"sty",
+		"toc"
+	],
+	"tab_size": 2,
+//	"translate_tabs_to_spaces": true
+}

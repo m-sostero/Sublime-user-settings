@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[\documentclass[10pt,a4paper]{article}
+
+\usepackage{fontspec}
+\setmainfont[Mapping=tex-text,Ligatures={Common}]{Linux Libertine O}
+\setsansfont{Linux Biolinum O}
+\setmonofont[Scale=MatchLowercase]{Lucida Console}
+
+\author{Matteo Sostero}
+\date{\today}
+
+\begin{document}
+
+$0
+
+\end{document}
+
+]]></content>
+	<tabTrigger>artx</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>LaTeX article preamble</description>
+</snippet>

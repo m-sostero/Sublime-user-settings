@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Advanced CSV",
+		"AlignTab",
+		"Diffy",
+		"Git",
+		"Gitignore",
+		"LaTeX-cwl",
+		"LaTeXSmartQuotes",
+		"LaTeXTab",
+		"LaTeXTools",
+		"Markdown Preview",
+		"Package Control",
+		"PackageResourceViewer",
+		"PlainNotes",
+		"PlainTasks",
+		"Show Character Code",
+		"TikZ",
+		"Trimmer"
+	]
+}

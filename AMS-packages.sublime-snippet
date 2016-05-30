@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[\usepackage{amsmath,amsfonts,amssymb}
+
+]]></content>
+	<tabTrigger>ams</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>AMS packages</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{longtable}
+
+]]></content>
+	<tabTrigger>booktabs</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>Tabular packages</description>
+</snippet>

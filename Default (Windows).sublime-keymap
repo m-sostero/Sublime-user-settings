@@ -1,0 +1,11 @@
+[
+	{ "keys": ["ctrl+alt+r"], "command": "reindent" },
+	{ "keys": ["ctrl+alt+right"], "command": "indent" },
+	{ "keys": ["ctrl+alt+left"], "command": "unindent" },
+	{ "keys": ["ctrl+alt+space"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+	{ "keys": ["ctrl+shift+c"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+alt+shift+c"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["alt+m"],"command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+	{ "keys": ["ctrl+\\"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["ctrl+alt+h"], "command": "bh_toggle_enable" },
+]

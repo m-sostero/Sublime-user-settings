@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+\RequirePackage[
+  style=authoryear,
+  backend=biber,
+  natbib=true,
+  url=false, 
+  doi=false,
+  backref=false,
+  eprint=false,
+  isbn=false
+]{biblatex}
+
+\addbibresource{$1.bib}
+$2
+]]></content>
+	<tabTrigger>bibl</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>BibLaTeX package</description>
+</snippet>

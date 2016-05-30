@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+
+\usepackage[rgb,dvipsnames]{xcolor}
+
+\usepackage[
+	pdfpagemode={UseOutlines},
+	colorlinks,
+	citecolor={Blue},
+	linkcolor={Blue},
+	urlcolor={Blue},
+	pdfstartview={FitV},
+	unicode,
+	breaklinks=true
+]{hyperref}
+
+]]></content>
+	<tabTrigger>hyper</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>Hyperref and xcolor package options</description>
+</snippet>

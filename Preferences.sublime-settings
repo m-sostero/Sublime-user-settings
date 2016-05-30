@@ -1,0 +1,58 @@
+{
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "\\",
+			"selector": "text.tex.latex"
+		}
+	],
+	"bh_toggle_enable": false,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"enable_telemetry": false,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.a",
+		"*.class",
+		"*.db",
+		"*.dll",
+		"*.dylib",
+		"*.exe",
+		"*.idb",
+		"*.lib",
+		"*.ncb",
+		"*.o",
+		"*.obj",
+		"*.pdb",
+		"*.psd",
+		"*.pyc",
+		"*.pyo",
+		"*.Rproj",
+		"*.sdf",
+		"*.so",
+		"*.sublime-workspace",
+		"*.suo",
+		".DS_Store"
+	],
+	"font_face": "Consolas",
+	"font_size": 10,
+	"highlight_line": false,
+	"ignored_packages":
+	[
+		"Advanced CSV",
+		"Character Table",
+		"ColorSchemeSelector",
+		"Diffy",
+		"GithubEmoji",
+		"Markdown Preview",
+		"Vintage"
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"show_markers_on_untracked_file": false
+}

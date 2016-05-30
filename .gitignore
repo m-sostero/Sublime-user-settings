@@ -1,0 +1,8 @@
+# Ignore all files
+*
+
+# Whitelist files and directories that can be tracked.
+!.gitignore
+!*.sublime-keymap
+!*sublime-snippet
+!*.sublime-settings
