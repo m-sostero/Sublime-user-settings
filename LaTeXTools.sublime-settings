@@ -46,7 +46,7 @@
 	// "no_warnings" (only hide the panel if no warnings occur)
 	// "no_badboxes" (only hide the panel if no badbox messages occur when badboxes are enabled) and
 	// "never" (default, never hide the build panel)
-	"hide_build_panel": "no_warnings",
+	"hide_build_panel": "no_badboxes",
 
 	// controls whether or not to display any bad boxes in the build output
 	// if this is not set to true, "no_badboxes" for "hide_build_panel" is
@@ -73,7 +73,7 @@
 // ------------------------------------------------------------------
 	// Extensions of TeX temporary files to be deleted
 	"temp_files_exts": [
-		".aux", ".bbl", ".blg", ".brf", ".dvi", ".fdb_latexmk",
+		".aux", ".bbl", ".bcf", ".blg", ".brf", ".dvi", ".fdb_latexmk",
 		".fls", ".idx", ".ilg", ".ind", ".lof", ".log", ".nav",
 		".nlo", ".out", ".pdfsync", ".ps", ".snm", ".synctex",
 		".synctex.gz", ".toc", ".vrb"

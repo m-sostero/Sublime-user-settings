@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\RequirePackage[
+\usepackage[
   style=authoryear,
   backend=biber,
   natbib=true,

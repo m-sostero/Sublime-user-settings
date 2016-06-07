@@ -1,0 +1,10 @@
+{
+	"line_numbers": false,
+	"gutter": true,
+	"draw_centered": true,
+	"wrap_width": 80,
+	"word_wrap": true,
+	"scroll_past_end": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1
+}

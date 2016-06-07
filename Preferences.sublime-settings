@@ -13,6 +13,7 @@
 	"bh_toggle_enable": false,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"dictionary": "Packages/Language - English/en_GB.dic",
 	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -40,16 +41,12 @@
 		".DS_Store"
 	],
 	"font_face": "Consolas",
-	"font_size": 10,
+	"font_size": 11,
 	"highlight_line": false,
 	"ignored_packages":
 	[
 		"Advanced CSV",
 		"Character Table",
-		"ColorSchemeSelector",
-		"Diffy",
-		"GithubEmoji",
-		"Markdown Preview",
 		"Vintage"
 	],
 	"show_encoding": true,
