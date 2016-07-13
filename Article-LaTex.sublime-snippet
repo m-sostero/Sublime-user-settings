@@ -17,5 +17,5 @@ $1
 ]]></content>
 	<tabTrigger>art</tabTrigger>
 	<scope>text.tex.latex</scope>
-	<description>XeLaTeX article preamble</description>
+	<description>LaTeX article preamble</description>
 </snippet>

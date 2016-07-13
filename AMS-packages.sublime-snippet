@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[\usepackage{amsmath,amsfonts,amssymb}
+	<content><![CDATA[\usepackage{amsmath,amssymb,bm}
 
 ]]></content>
 	<tabTrigger>ams</tabTrigger>

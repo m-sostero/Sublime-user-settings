@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[%!TEX program = xelatex
+\\PassOptionsToPackage{dvipsnames,x11names,svgnames}{xcolor}
+\\documentclass{beamer}                % Full presentation
+% \\documentclass[trans]{beamer}       % Transparency mode (no overlays)
+% \\PassOptionsToPackage{gray}{xcolor} % Force grey colours for printing
+% \\documentclass[handout]{beamer}     % Handout mode
+
+\\usepackage{mbeamer}
+
+\\author{Matteo Sostero}
+\\authormail{Matteo Sostero}{m.sostero@sssup.it}
+\\institute{Sant'Anna School of Advanced Studies, Pisa}
+
+\\title{$1}
+\\subtitle{$2}
+
+\\begin{document}
+
+\\begin{frame}{$3}
+$4
+\\end{frame}
+
+\\end{document}
+
+]]></content>
+	<tabTrigger>beamer</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>Beamer grey presentation preamble</description>
+</snippet>

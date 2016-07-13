@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[\documentclass[10pt,a4paper]{article}
+	<content><![CDATA[%!TEX program = xelatex
+\documentclass[10pt,a4paper]{article}
 
 \usepackage{fontspec}
 \setmainfont[Mapping=tex-text,Ligatures={Common}]{Linux Libertine O}
@@ -7,6 +8,7 @@
 \setmonofont[Scale=MatchLowercase]{Lucida Console}
 
 \author{Matteo Sostero}
+
 \date{\today}
 
 \begin{document}
@@ -18,5 +20,5 @@ $0
 ]]></content>
 	<tabTrigger>artx</tabTrigger>
 	<scope>text.tex.latex</scope>
-	<description>LaTeX article preamble</description>
+	<description>XeLaTeX article preamble</description>
 </snippet>
