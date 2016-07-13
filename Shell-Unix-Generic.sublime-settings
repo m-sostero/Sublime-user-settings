@@ -13,13 +13,12 @@
 		".editorconfig",
 		".env",
 		".envrc",
-		".eslintignore",		
+		".eslintignore",
 		".exports",
 		".extra",
 		".functions",
 		".git",
 		".gitattributes",
-		".gitconfig",
 		".gitignore",
 		".gitmodules",
 		".hushlogin",
@@ -48,6 +47,7 @@
 		"zlogin",
 		"zlogout",
 		"zprofile",
-		"zpreztorc"
+		"zpreztorc",
+		".bash_history"
 	]
 }

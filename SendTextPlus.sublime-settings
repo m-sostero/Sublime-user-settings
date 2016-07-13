@@ -1,0 +1,24 @@
+{
+	"prog": "Cygwin",
+	"user":
+	[
+		{
+			"platform": "windows",
+			"prog": "RStudio",
+			"remove_line_indentation": true,
+			"scopes":
+			[
+				"source.r"
+			]
+		},
+		{
+			"platform": "windows",
+			"prog": "Cygwin",
+			"remove_line_indentation": false,
+			"scopes":
+			[
+				"source.sh"
+			]
+		}
+	]
+}
