@@ -4,5 +4,6 @@
 # Whitelist files and directories that can be tracked.
 !.gitignore
 !*.sublime-keymap
-!*sublime-snippet
+!*.sublime-snippet
 !*.sublime-settings
+!*.sublime-macro
