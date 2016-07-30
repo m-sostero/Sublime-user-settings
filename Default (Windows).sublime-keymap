@@ -1,19 +1,19 @@
 [
-
-	{	"keys": ["ctrl+alt+r"], "command": "reindent"	},
-	{	"keys": ["ctrl+alt+right"], "command": "indent"	},
-	{	"keys": ["ctrl+alt+left"], "command": "unindent"	},
-	{	"keys": ["ctrl+alt+space"], "command": "toggle_setting", "args": {"setting": "word_wrap"}	},
-	{	"keys": ["ctrl+alt+shift+space"], "command": "toggle_prose_view"	},
-	{	"keys": ["ctrl+shift+c"], "command": "toggle_comment", "args": { "block": false }	},
-	{	"keys": ["ctrl+alt+shift+c"], "command": "toggle_comment", "args": { "block": true }	},
-	{	"keys": ["alt+m"],"command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"}	},
-	{	"keys": ["ctrl+\\"], "command": "show_panel", "args": {"panel": "console", "toggle": true}	},
-	{	"keys": ["ctrl+alt+p"], "command": "prompt_select_workspace"	},
-	{	"keys": ["ctrl+0"], "command": "reset_font_size"	},
+	{ "keys": ["ctrl+shift+r"], "command": "reindent" },
+	{ "keys": ["ctrl+alt+right"], "command": "indent" },
+	{ "keys": ["ctrl+alt+left"], "command": "unindent" },
+	{ "keys": ["ctrl+alt+space"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+	{ "keys": ["ctrl+alt+shift+space"], "command": "toggle_prose_view" },
+	{ "keys": ["ctrl+shift+c"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+alt+shift+c"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["alt+m"],"command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+	{ "keys": ["ctrl+\\"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+	{ "keys": ["ctrl+0"], "command": "reset_font_size" },
+	{ "keys": ["ctrl+shift+q"], "command": "git_quick_commit" },
 	{
 		"keys": ["ctrl+l","ctrl+s"],
- 		"context":  [{"key": "selector", "operator": "equal", "operand": "text.tex.latex"}],
- 		"command": "insert_snippet", "args": {"name":"Packages/User/Text small capitals.sublime-snippet"}
- 	}
+		"context":  [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }],
+		"command": "insert_snippet", "args": { "name":"Packages/User/Text small capitals.sublime-snippet" }
+	}
 ]
