@@ -24,6 +24,7 @@
 	// this requires the LaTeX-cwl package and might not have a complete list of all environments.
 	// You can also use toggle: C-l,t,a,e
 	"env_auto_trigger": false,
+	"cwl_autoload": true,
 
 	// Keep focus on Sublime Text after building (true) or switch to PDF viewer (false)
 	// If you are on Windows or Linux and using ST2, you may need to set the

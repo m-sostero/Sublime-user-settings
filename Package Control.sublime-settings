@@ -8,9 +8,11 @@
 		"Advanced CSV",
 		"AlignTab",
 		"ANSIescape",
+		"AutoWrap",
 		"ColorSchemeSelector",
 		"Diffy",
 		"DistractionFreeWindow",
+		"Emoji",
 		"Git",
 		"Git Config",
 		"Gitignore",
@@ -26,10 +28,11 @@
 		"PlainTasks",
 		"Project Planner",
 		"R-Box",
-		"SendTextPlus",
+		"SendREPL",
 		"Show Character Code",
 		"StataEditor",
 		"TikZ",
-		"Trimmer"
+		"Trimmer",
+		"Wrap Plus"
 	]
 }

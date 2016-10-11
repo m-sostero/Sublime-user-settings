@@ -1,5 +1,6 @@
 [
-	{ "keys": ["ctrl+shift+r"], "command": "reindent" },
+	{ "keys": ["ctrl+shift+s"], "command": "save_all" },
+	{ "keys": ["ctrl+i"], "command": "reindent" },
 	{ "keys": ["ctrl+alt+right"], "command": "indent" },
 	{ "keys": ["ctrl+alt+left"], "command": "unindent" },
 	{ "keys": ["ctrl+alt+space"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
@@ -12,8 +13,13 @@
 	{ "keys": ["ctrl+0"], "command": "reset_font_size" },
 	{ "keys": ["ctrl+shift+q"], "command": "git_quick_commit" },
 	{
-		"keys": ["ctrl+l","ctrl+s"],
-		"context":  [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }],
-		"command": "insert_snippet", "args": { "name":"Packages/User/Text small capitals.sublime-snippet" }
+		"keys"    : ["ctrl+l","ctrl+s"],
+		"context" : [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }],
+		"command" : "insert_snippet", "args": { "name":"Packages/User/Text small capitals.sublime-snippet" }
+	},
+	{ // Custom LaTeX table alignment by "&" (but not "\&") and "\\" or "\\[1em]"
+		"keys"    : ["ctrl+shift+a"], "command": "align_tab",
+		"args"    : {"user_input" : "(?<!\\\\)&|\\\\\\\\(?:\\[\\w+\\])*"},
+		"context" : [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
 	}
 ]

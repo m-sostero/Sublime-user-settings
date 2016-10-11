@@ -42,7 +42,6 @@
 		"*.sublime-workspace",
 		"*.suo",
 		".DS_Store",
-		// LaTeX
 		"*.aux",
 		"*.cls",
 		"*.dtx",
@@ -59,7 +58,7 @@
 		"*.synctex.gz*"
 	],
 	"font_face": "Consolas",
-	// "highlight_line": true,
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Character Table",
