@@ -135,7 +135,7 @@
 	"preview_math_no_star_envs": [],
 
 	// The density of the preview image. The higher the density the bigger the phantom.
-	"preview_math_density": 300,
+	"preview_math_density": 600,
 	// If the image is not sharp enough increase this scale to get a better resolution.
 	// However also change the density by the same factor to keep the size.
 	"preview_math_scale_quotient": 2,
@@ -175,9 +175,11 @@
 // ------------------------------------------------------------------
 	// Ends of the names of temporary files to be deleted
 	"temp_files_exts": [
-		".blg",".bbl",".aux",".log",".brf",".nlo",".out",".dvi",".ps",
-		".lof",".toc",".fls",".fdb_latexmk",".pdfsync",".synctex.gz",
-		".ind",".ilg",".idx"
+		".acn", ".acr", ".alg", ".aux", ".bbl", ".blg", ".brf", ".dvi",
+		".fdb_latexmk", ".fls", ".glg", ".glo", ".gls", ".idx",
+		".ilg", ".ind", ".ist", ".lof", ".log", ".lot", ".maf", ".mtc",
+		".mtc0", ".nav", ".nlo", ".out", ".pdfsync", ".ps", ".snm", 
+		".synctex.gz", ".tdo", ".toc", ".vrb", ".xdy"
 	],
 	// Folders that are not traversed when deleting temp files
 	"temp_files_ignored_folders": [
