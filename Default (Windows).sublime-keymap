@@ -1,22 +1,30 @@
 [
 	{ "keys": ["ctrl+shift+s"], "command": "save_all" },
-	{ "keys": ["ctrl+i"], "command": "reindent" },
+	{ "keys": ["ctrl+."], "command": "show_at_center" },
 	{ "keys": ["ctrl+alt+right"], "command": "indent" },
 	{ "keys": ["ctrl+alt+left"], "command": "unindent" },
-	{ "keys": ["ctrl+alt+space"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
-	{ "keys": ["ctrl+alt+shift+c"], "command": "toggle_comment", "args": { "block": true } },
-	{ "keys": ["ctrl+alt+shift+space"], "command": "toggle_prose_view" },
+	{ "keys": ["ctrl+alt+i"], "command": "reindent" },
 	{ "keys": ["ctrl+shift+c"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+alt+shift+c"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["ctrl+alt+space"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+	{ "keys": ["ctrl+alt+shift+space"], "command": "toggle_prose_view" },
 	{ "keys": ["alt+m"],"command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
 	{ "keys": ["ctrl+\\"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 	{ "keys": ["ctrl+0"], "command": "reset_font_size" },
-	{ "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },
-	{ "keys": ["ctrl+shift+space"], "command": "expand_region" },
+	// Smart title case
+	{ "keys": ["ctrl+k", "ctrl+t"], "command": "smart_title_case" },
+	// Expand Region
+	{ "keys": ["alt+shift+up"], "command": "expand_region" },
+	{ "keys": ["alt+shift+down"], "command": "expand_region", "args": {"undo": true}, "context": [{ "key": "expand_region_soft_undo" }] },
+	// Origami
+	{ "keys": ["ctrl+k","ctrl+\\"], "command": "destroy_pane", "args": {"direction": "self"} },
 	// Project Manager
 	{ "keys": ["ctrl+alt+p"], "command": "project_manager" },
 	{ "keys": ["ctrl+alt+o"], "command": "project_manager", "args": {"action": "switch"} },
 	{ "keys": ["ctrl+alt+shift+o"], "command": "project_manager", "args": {"action": "new"} },
-	// git custom keybindings
+	// GitSavvy
+	{ "keys": ["ctrl+alt+g"], "command": "gs_show_status"},
+	// git
 	{ "keys": ["ctrl+shift+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 	{ "keys": ["ctrl+g"], "command":"noop"}, // Remove key-binding from ctrl+g
 	{ "keys": ["ctrl+g","s"], "command": "git_status"},
@@ -35,20 +43,31 @@
 	{ "keys": ["ctrl+g","r"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: Reset"} },
 	{ "keys": ["ctrl+g","h"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: Stash"} },
 	{ "keys": ["ctrl+g","b"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: Branch"} },
-	// LaTeXTools custom keybindings
+	// LaTeXTools
 	{
-		"keys"    : ["ctrl+l","ctrl+s"],
-		"context" : [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }],
-		"command" : "insert_snippet", "args": { "name":"Packages/User/Text small capitals.sublime-snippet" }
+		"keys": ["ctrl+l","ctrl+s"],
+		"context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }],
+		"command": "insert_snippet",
+		"args": { "name":"Packages/User/Text small capitals.sublime-snippet" }
 	},
 	{
-		"keys"    : ["ctrl+l","m"],
-		"context" : [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }],
-		"command" : "insert_snippet", "args": { "name":"Packages/User/Multicolumn.sublime-snippet" }
+		"keys": ["ctrl+l","ctrl+i"],
+		"context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }],
+		"command": "insert_snippet",
+		"args": { "name":"Packages/User/Text italics.sublime-snippet" }
 	},
-	{ // Custom LaTeX table alignment by "&" (but not "\&") and "\\" or "\\[1em]"
-		"keys"    : ["ctrl+shift+a"], "command": "align_tab",
-		"args"    : {"user_input" : "(?<!\\\\)&|\\\\\\\\(?:\\[\\w+\\])*"},
-		"context" : [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
-	}
+	{
+		"keys": ["ctrl+l","ctrl+m"],
+		"context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }],
+		"command": "insert_snippet",
+		"args": { "name":"Packages/User/Multicolumn.sublime-snippet" }
+	},
+	// Custom LaTeX table alignment by "&" (but not "\&") and "\\" or "\\[1em]"
+	{
+		"keys": ["ctrl+shift+a"], "command": "align_tab",
+		"args": {"user_input" : "(?<!\\\\)&|\\\\\\\\(?:\\[\\w+\\])*"},
+		"context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
+	},
+	// Experimental
+	{ "keys": ["ctrl+shift+x"], "command": "expand_selection_to_latex" }
 ]

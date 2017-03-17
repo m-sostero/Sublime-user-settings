@@ -1,0 +1,7 @@
+<snippet>
+	<description>Text in italics</description>
+	<content><![CDATA[
+\\textit{${1:$SELECTION}}
+]]></content>
+	<scope>text.tex.latex</scope>
+</snippet>

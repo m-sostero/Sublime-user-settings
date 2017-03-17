@@ -5,7 +5,7 @@
 	"ensure_newline_at_eof_on_save": true,
 	"extensions":
 	[
-		"do"
+		".do"
 	],
 	"function_completions": false,
 	"stata_path": "C:/Program Files (x86)/Stata13/StataMP-64.exe",

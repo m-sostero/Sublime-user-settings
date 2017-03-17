@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\begin{figure}[${1:tb}]
+	\centering
+	\includegraphics[width=${2:0.95}\textwidth,height=${3:0.8}\textheight,keepaspectratio]{$4}
+	\caption{${5:Caption here}}
+	\label{fig:${6:figure_label}}
+\end{figure}
+
+$0
+]]></content>
+	<tabTrigger>figure</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>Insert figure</description>
+</snippet>

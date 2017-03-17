@@ -1,3 +1,11 @@
 {
-	"search_in_project_engine": "the_platinum_searcher"
+		/* grep, ack, the_silver_searcher, the_platinum_searcher, git_grep* */
+	"search_in_project_engine": "the_platinum_searcher",
+		/* ThePlatinumSearcher configuration */
+	"search_in_project_TheSilverSearcher_path_to_executable": "C:\\cygwin\\bin\\ag",
+	"search_in_project_TheSilverSearcher_mandatory_options": "--column --search-files --nogroup --nocolor",
+	  /* Ack configuration */
+  "search_in_project_Ack_path_to_executable": "C:\\cygwin\\bin\\ack",
+  "search_in_project_Ack_mandatory_options": "",
+  "search_in_project_Ack_common_options": "--type-add haml=.haml --type-add js=.jsx"
 }

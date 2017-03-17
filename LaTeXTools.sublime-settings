@@ -23,6 +23,9 @@
 	// You can also use toggle: C-l,t,a,e
 	"env_auto_trigger": false,
 
+	"cwl_autoload":true,
+
+
 	// Fill-helper autocompletion trigger for glossary entries \gls{ and \acrfull{
 	"glossary_auto_trigger": true,
 
@@ -187,7 +190,8 @@
 		"addchap",
 		"addsec",
 		"minisec",
-		"frametitle"
+		"frametitle",
+		"frame"
 	],
 	// a mapping from each section command to its indent
 	"toc_indentations": {
@@ -202,7 +206,8 @@
 		"addsec": 2,
 		"minisec": 2,
 		"label": 0,
-		"frametitle":3
+		"frametitle":3,
+		"frame":3
 	},
 	// the label commands, i.e. the commands,
 	// which will be shown/hidden using "Show Label" and "Hide Label"
@@ -482,7 +487,7 @@
 	// "errors" (only show errors, which breaks the compilation)
 	// "warnings" (default, show errors and warnings)
 	// "badboxes" (show errors, warnings, and badboxes)
-	"show_error_phantoms": "warnings",
+	"show_error_phantoms": "errors",
 
 	// number of seconds to display the "build succeeded" or "build failed"
 	// message

@@ -4,6 +4,7 @@
 	"indent_to_bracket": false,
 	"extensions":
 	[
+		".R",
 		".Rhistory"
 	]
 }

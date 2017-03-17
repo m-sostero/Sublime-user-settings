@@ -1,0 +1,7 @@
+{
+	"diff_popup_use_icon_buttons": false,
+	"live_mode": false,
+	"ignore_whitespace": "eol",
+	"diff_popup_default_mode": "diff",
+	"show_markers_on_untracked_file": false
+}

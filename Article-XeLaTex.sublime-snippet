@@ -3,22 +3,24 @@
 \documentclass[10pt,a4paper]{article}
 
 \usepackage{fontspec}
-\setmainfont[Mapping=tex-text,Ligatures={Common}]{Linux Libertine O}
+\setmainfont[Ligatures={Common,TeX}]{Linux Libertine O}
 \setsansfont{Linux Biolinum O}
 \setmonofont[Scale=MatchLowercase]{Lucida Console}
 
+\title{$1}
 \author{Matteo Sostero}
-
-\date{\today}
+\date{${2:\today}}
 
 \begin{document}
+
+\maketitle
 
 $0
 
 \end{document}
 
 ]]></content>
-	<tabTrigger>artx</tabTrigger>
+	<tabTrigger>articlex</tabTrigger>
 	<scope>text.tex.latex</scope>
 	<description>XeLaTeX article preamble</description>
 </snippet>

@@ -1,4 +1,5 @@
 {
+	"WrapPlus.wrap_width": 70,
 	"auto_complete_triggers":
 	[
 		{
@@ -12,6 +13,7 @@
 	],
 	"bold_folder_labels": true,
 	"close_windows_when_empty": false,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
@@ -58,11 +60,10 @@
 		".DS_Store"
 	],
 	"font_face": "Consolas",
-	"font_size": 10,
+	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Advanced CSV",
-		"Character Table",
+		"GitGutter",
 		"Vintage"
 	],
 	"show_encoding": true,
