@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+{
+	"folders":
+	[
+		{
+			"path": "$1",
+			"file_exclude_patterns": 
+			[
+				"$2"
+			]
+		}
+	],
+	"settings":
+	{
+		"TEXroot": "$3"
+	}
+}
+
+]]></content>
+	<tabTrigger>project</tabTrigger>
+	<description>Generic Sublime project</description>
+	<scope>source.json</scope>
+</snippet>

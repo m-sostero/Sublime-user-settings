@@ -1,0 +1,19 @@
+[
+	{"caption" : "-"},
+	{
+		"id": "aligntab",
+		"caption": "Align By",
+		"children": [
+			{
+				"caption" : "Tab character ↹",
+				"command" : "align_tab",
+				"args"    : { "user_input" : "(?:[\\t])" }
+			},
+			{
+				"caption" : "TeX options: = and %",
+				"command" : "align_tab",
+				"args"    : { "user_input" : "(?:[=,%])/lll0l(l0)*" }
+			}
+		]
+	}
+]

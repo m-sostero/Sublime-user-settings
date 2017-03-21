@@ -8,3 +8,8 @@
 !*.sublime-snippet
 !*.sublime-settings
 !*.sublime-macro
+!*.sublime-menu
+
+/Gist.sublime-settings
+
+/GitSavvy.sublime-settings

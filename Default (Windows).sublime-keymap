@@ -46,25 +46,26 @@
 	// LaTeXTools
 	{
 		"keys": ["ctrl+l","ctrl+s"],
-		"context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }],
 		"command": "insert_snippet",
-		"args": { "name":"Packages/User/Text small capitals.sublime-snippet" }
+		"args": { "name":"Packages/User/Text small capitals.sublime-snippet" },
+		"context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
 	},
 	{
 		"keys": ["ctrl+l","ctrl+i"],
-		"context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }],
 		"command": "insert_snippet",
-		"args": { "name":"Packages/User/Text italics.sublime-snippet" }
+		"args": { "name":"Packages/User/Text italics.sublime-snippet" },
+		"context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
 	},
 	{
 		"keys": ["ctrl+l","ctrl+m"],
-		"context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }],
 		"command": "insert_snippet",
-		"args": { "name":"Packages/User/Multicolumn.sublime-snippet" }
+		"args": { "name":"Packages/User/Multicolumn.sublime-snippet" },
+		"context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
 	},
 	// Custom LaTeX table alignment by "&" (but not "\&") and "\\" or "\\[1em]"
 	{
-		"keys": ["ctrl+shift+a"], "command": "align_tab",
+		"keys": ["ctrl+shift+a"],
+		"command": "align_tab",
 		"args": {"user_input" : "(?<!\\\\)&|\\\\\\\\(?:\\[\\w+\\])*"},
 		"context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
 	},
