@@ -61,12 +61,12 @@
 		".DS_Store"
 	],
 	"font_face": "Consolas",
-	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Git",
 		"GitGutter",
+		"SublimeREPL",
 		"Vintage"
 	],
 	"show_encoding": true,

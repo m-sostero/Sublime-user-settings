@@ -3,9 +3,12 @@
 \documentclass[10pt,a4paper]{article}
 
 \usepackage{fontspec}
-\setmainfont[Ligatures={Common,TeX}]{Linux Libertine O}
-\setsansfont{Linux Biolinum O}
-\setmonofont[Scale=MatchLowercase]{Lucida Console}
+\setmainfont[Ligatures={Common,TeX}]{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Consolas}[Scale=MatchLowercase]
+
+\usepackage{polyglossia}
+\setmainlanguage{${3:english}}
 
 \title{$1}
 \author{Matteo Sostero}
