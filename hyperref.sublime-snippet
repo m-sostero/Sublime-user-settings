@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[\usepackage[
+  pdfpagemode={UseOutlines},
+  bookmarks=true,
+  bookmarksopen=true,
+  bookmarksopenlevel=0,
+  bookmarksnumbered=true,
+  hypertexnames=true,
+  colorlinks,
+  citecolor={black},
+  linkcolor={blue},
+  pdfstartview={FitV},
+  unicode,
+  breaklinks=true
+]{hyperref}
+
+]]></content>
+	<tabTrigger>hyperref</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>Hyperref settings</description>
+</snippet>

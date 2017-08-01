@@ -44,7 +44,7 @@
 	// Keep focus on Sublime Text after building (true) or switch to PDF viewer (false)
 	// If you are on Windows or Linux and using ST2, you may need to set the
 	// "sublime_executable" setting for this to work in your platform settings.
-	"keep_focus": true,
+	"keep_focus": false,
 	// Sync PDF to current editor position after building (true) or not
 	"forward_sync": true,
 
@@ -220,9 +220,9 @@
 // ------------------------------------------------------------------
 	// Ends of the names of temporary files to be deleted
 	"temp_files_exts": [
-		".acn", ".acr", ".alg", ".aux", ".bbl", ".blg", ".brf", ".dvi",
+		".acn", ".acr", ".alg", ".aux", ".bbl", ".bcf", ".blg", ".brf", ".dvi",
 		".fdb_latexmk", ".fls", ".glg", ".glo", ".gls", ".idx",
-		".ilg", ".ind", ".ist", ".lof", ".log", ".lot", ".maf", ".mtc",
+		".ilg", ".ind", ".ist", ".lof", ".log", ".lol",  ".lot", ".maf", ".mtc",
 		".mtc0", ".nav", ".nlo", ".out", ".pdfsync", ".ps", ".run.xml",
 		".snm", ".synctex.gz", ".tdo", ".toc", ".vrb", ".xdy"
 	],
