@@ -13,7 +13,13 @@
 				"caption" : "TeX options: = and %",
 				"command" : "align_tab",
 				"args"    : { "user_input" : "(?:[=,%])/lll0l(l0)*" }
+			},
+			{
+				"caption" : "R assignment <-",
+				"command" : "align_tab",
+				"args"    : { "user_input" : "(?:<-)" }
 			}
+
 		]
 	}
 ]

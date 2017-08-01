@@ -1,6 +1,9 @@
 {
 	"extensions":
 	[
+		".R",
+		".Rhistory",
+		"R"
 	],
 	"indent_to_bracket": false,
 	"tab_size": 2,

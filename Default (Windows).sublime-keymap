@@ -69,6 +69,24 @@
 		"args": {"user_input" : "(?<!\\\\)&|\\\\\\\\(?:\\[\\w+\\])*"},
 		"context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
 	},
+	{
+		"keys": ["ctrl+shift+m"],
+		"command": "insert_snippet",
+		"args": {"contents": " %>% "},
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.r" }]
+	},	
+	// StataEditor
+	{ 
+		"keys": ["ctrl+enter"],
+		"command": "stata_execute",
+		"args": {"Mode": "do", "Selection": "line"},
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.stata" }]
+	},
 	// Experimental
-	{ "keys": ["ctrl+shift+x"], "command": "expand_selection_to_latex" }
+	{ "keys": ["ctrl+shift+x"], "command": "expand_selection_to_latex" },
+	{ 
+		"keys": ["ctrl+alt+e"],
+		"command": "open_dir", 
+		"args": {"dir": "$file_path", "file": "$file_name"} 
+	}
 ]
