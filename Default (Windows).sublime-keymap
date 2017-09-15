@@ -24,25 +24,6 @@
 	{ "keys": ["ctrl+alt+shift+o"], "command": "project_manager", "args": {"action": "new"} },
 	// GitSavvy
 	{ "keys": ["ctrl+alt+g"], "command": "gs_show_status"},
-	// git
-	{ "keys": ["ctrl+shift+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
-	{ "keys": ["ctrl+g"], "command":"noop"}, // Remove key-binding from ctrl+g
-	{ "keys": ["ctrl+g","s"], "command": "git_status"},
-	{ "keys": ["ctrl+g","d"], "command": "git_diff", "args": { "word_diff": true } },
-	{ "keys": ["ctrl+g","ctrl+d"], "command": "git_diff_all", "args": { "word_diff": true } } ,
-	{ "keys": ["ctrl+g","v"], "command": "git_show" },
-	{ "keys": ["ctrl+g","l"], "command": "git_log"},
-	{ "keys": ["ctrl+g","ctrl+l"], "command": "git_log_all"},
-	{ "keys": ["ctrl+g","ctrl+g"], "command": "git_graph_all"},
-	{ "keys": ["ctrl+g","a"], "command": "git_raw", "args": { "command": "git add", "append_current_file": true } },
-	{ "keys": ["ctrl+g","ctrl+a"], "command": "git_raw", "args": { "command": "git add -A" } },
-	{ "keys": ["ctrl+g","c"], "command": "git_commit" },
-	{ "keys": ["ctrl+g","q"], "command": "git_quick_commit" },
-	{ "keys": ["ctrl+g","up"], "command": "git_raw", "args": { "command": "git push", "may_change_files": false } },
-	{ "keys": ["ctrl+g","down"], "command": "git_raw", "args": { "command": "git pull" } },
-	{ "keys": ["ctrl+g","r"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: Reset"} },
-	{ "keys": ["ctrl+g","h"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: Stash"} },
-	{ "keys": ["ctrl+g","b"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: Branch"} },
 	// LaTeXTools
 	{
 		"keys": ["ctrl+l","ctrl+s"],
