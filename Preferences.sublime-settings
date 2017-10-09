@@ -14,8 +14,10 @@
 	"bold_folder_labels": true,
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"default_encoding": "UTF-8",
+	"default_line_ending": "system",
 	"dictionary": "Packages/Language - English/en_US.dic",
-	"enable_telemetry": false,
+	"enable_telemetry": true,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -66,10 +68,13 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"SQLTools",
 		"Vintage"
 	],
+	"show_definitions": true,
 	"show_encoding": true,
 	"show_line_endings": true,
 	"show_markers_on_untracked_file": false,
-	"theme": "Default.sublime-theme"
+	"theme": "Default.sublime-theme",
+	"open_externally_patterns": ["*.pdf"]
 }

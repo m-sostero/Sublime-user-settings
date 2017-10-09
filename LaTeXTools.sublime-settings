@@ -23,7 +23,7 @@
 	// You can also use toggle: C-l,t,a,e
 	"env_auto_trigger": false,
 
-	"cwl_autoload":true,
+	"cwl_autoload": true,
 
 
 	// Fill-helper autocompletion trigger for glossary entries \gls{ and \acrfull{

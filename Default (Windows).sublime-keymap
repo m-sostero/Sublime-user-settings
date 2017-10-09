@@ -66,8 +66,10 @@
 	// Experimental
 	{ "keys": ["ctrl+shift+x"], "command": "expand_selection_to_latex" },
 	{ 
-		"keys": ["ctrl+alt+e"],
+		"keys": ["ctrl+alt+w"],
 		"command": "open_dir", 
 		"args": {"dir": "$file_path", "file": "$file_name"} 
-	}
+	},
+	{ "keys": ["ctrl+alt+t"], "command": "open_terminal" },
+	{ "keys": ["ctrl+shift+t"], "command": "reopen_last_file" }
 ]
