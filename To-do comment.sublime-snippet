@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[%TODO: $1]]></content>
+	<tabTrigger>todo</tabTrigger>
+	<description>To-do comment</description>
+	<scope>text.tex.latex</scope>
+</snippet>

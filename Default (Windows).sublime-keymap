@@ -38,6 +38,12 @@
 		"context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
 	},
 	{
+		"keys": ["ctrl+l","ctrl+n"],
+		"command": "insert_snippet",
+		"args": { "name":"Packages/User/Inline listing.sublime-snippet" },
+		"context": [{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }]
+	},
+	{
 		"keys": ["ctrl+l","ctrl+m"],
 		"command": "insert_snippet",
 		"args": { "name":"Packages/User/Multicolumn.sublime-snippet" },

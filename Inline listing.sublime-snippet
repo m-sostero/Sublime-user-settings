@@ -1,0 +1,9 @@
+<snippet>
+	<description>Inline listing</description>
+	<content><![CDATA[
+\\lstinline{${1:$SELECTION}}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<scope>text.tex.latex</scope>
+</snippet>

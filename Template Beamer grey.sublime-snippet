@@ -6,7 +6,7 @@
 % \\PassOptionsToPackage{gray}{xcolor} % Force grey colours for printing
 % \\documentclass[handout]{beamer}     % Handout mode
 
-\\usepackage{mbeamer}
+\\usepackage{mtheme}
 
 \\author{Matteo Sostero}
 \\authormail{Matteo Sostero}{m.sostero@sssup.it}
@@ -14,11 +14,12 @@
 
 \\title{$1}
 \\subtitle{$2}
+\\date{$3:\today}
 
 \\begin{document}
 
-\\begin{frame}{$3}
-$4
+\\begin{frame}{$4}
+$5
 \\end{frame}
 
 \\end{document}

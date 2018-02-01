@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>%!</tabTrigger>
 	<scope>text.tex.latex</scope>
-	<description>LaTeX directives</description>
+	<description>LaTeX directives (shebang)</description>
 </snippet>

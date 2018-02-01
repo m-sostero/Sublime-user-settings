@@ -25,7 +25,6 @@
 
 	"cwl_autoload": true,
 
-
 	// Fill-helper autocompletion trigger for glossary entries \gls{ and \acrfull{
 	"glossary_auto_trigger": true,
 
@@ -220,11 +219,45 @@
 // ------------------------------------------------------------------
 	// Ends of the names of temporary files to be deleted
 	"temp_files_exts": [
-		".acn", ".acr", ".alg", ".aux", ".bbl", ".bcf", ".blg", ".brf", ".dvi",
-		".fdb_latexmk", ".fls", ".glg", ".glo", ".gls", ".idx",
-		".ilg", ".ind", ".ist", ".lof", ".log", ".lol",  ".lot", ".maf", ".mtc",
-		".mtc0", ".nav", ".nlo", ".out", ".pdfsync", ".ps", ".run.xml",
-		".snm", ".synctex.gz", ".tdo", ".toc", ".vrb", ".xdy"
+		".acn",
+		".acr",
+		".alg",
+		".aux",
+		".bbl",
+		".bcf",
+		".blg",
+		".brf",
+		".dvi",
+		".ent",
+		".fdb_latexmk",
+		".fls",
+		".glg",
+		".glo",
+		".gls",
+		".idx",
+		".ilg",
+		".ind",
+		".ist",
+		".lof",
+		".log",
+		".lol",
+		".lot",
+		".maf",
+		".mtc",
+		".mtc0",
+		".nav",
+		".nlo",
+		".out",
+		".pdfsync",
+		".ps",
+		".run.xml",
+		".snm",
+		".synctex(busy)",
+		".synctex.gz",
+		".tdo",
+		".toc",
+		".vrb",
+		".xdy"
 	],
 	// Folders that are not traversed when deleting temp files
 	"temp_files_ignored_folders": [
@@ -262,7 +295,7 @@
 	},
 
 	"linux" : {
-		// Path used when invoking tex & friends; MUST include $PATH
+		// Path used when invoking tex & frie€nds; MUST include $PATH
 		"texpath" : "$PATH:/usr/texbin",
 		// Command to invoke Python. Useful if you have Python installed in a
 		// non-standard location or want to use a particular version of python.

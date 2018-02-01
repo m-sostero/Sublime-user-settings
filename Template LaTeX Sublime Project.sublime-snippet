@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+{
+	"folders":
+	[
+		{
+			"path": "${1:.}",
+			"file_exclude_patterns": 
+			[
+				"*-blx.bib", "*.acn", "*.acr", "*.alg", "*.aux", "*.bak", "*.bbl", "*.bcf", "*.blg", "*.brf", "*.cls", "*.dvi", "*.ent", "*.fdb_latexmk", "*.fls", "*.glg", "*.glo", "*.gls", "*.idx", "*.ilg", "*.ind", "*.ini", "*.ins", "*.ist", "*.lof", "*.log", "*.lol", "*.lot", "*.maf", "*.mtc", "*.mtc0", "*.nav", "*.nlo", "*.out", "*.pdfsync", "*.ps", "*.run.xml", "*.smc", "*.snm", "*.synctex*", "*.tdo", "*.toc", "*.vrb", "*.xdy"
+			]
+		}
+	],
+	"settings":
+	{
+		"TEXroot": "$2.tex"
+	}
+}
+
+]]></content>
+	<tabTrigger>project</tabTrigger>
+	<description>LaTex Project template</description>
+	<scope>source.json.sublime.project</scope>
+</snippet>
