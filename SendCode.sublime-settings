@@ -1,3 +1,7 @@
 {
-	"prog": "rstudio"
+	"prog": "rstudio",
+	"r":
+	{
+		"prog": "rstudio"
+	}
 }
