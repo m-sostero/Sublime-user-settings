@@ -2,10 +2,7 @@
 	"color_scheme": "Packages/Color Scheme - Default/Breakers.tmTheme",
 	"extensions":
 	[
-		"md",
-		"mdown",
-		"markdown"
-	],
-	"caret_extra_top": 1,
-	"caret_extra_bottom": 1
+		"rmd",
+		"Rmd"
+	]
 }

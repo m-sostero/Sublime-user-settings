@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+```{r}
+$1
+```
+
+$2
+]]></content>
+	<tabTrigger></tabTrigger>
+	<description>R code chunk in RMarkdown</description>
+	<scope>text.html.markdown.rmarkdown</scope>
+</snippet>

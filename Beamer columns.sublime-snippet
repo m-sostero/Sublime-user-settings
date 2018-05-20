@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[\begin{columns}
+\begin{column}{0.5\textwidth}
+$1
+\end{column}
+\begin{column}{0.5\textwidth} 
+$2
+\end{column}
+\end{columns}]]></content>
+	<tabTrigger>columns</tabTrigger>
+	<description>Beamer columns</description>
+	<scope>text.tex.latex</scope>
+</snippet>

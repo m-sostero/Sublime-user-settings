@@ -27,5 +27,5 @@ $5
 ]]></content>
 	<tabTrigger>beamer</tabTrigger>
 	<scope>text.tex.latex</scope>
-	<description>Beamer grey presentation preamble</description>
+	<description>Beamer grey presentation template</description>
 </snippet>

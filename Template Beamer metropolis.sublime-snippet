@@ -1,25 +1,27 @@
 <snippet>
 	<content><![CDATA[%!TEX program = xelatex
-\\PassOptionsToPackage{dvipsnames,x11names,svgnames}{xcolor}
-\\documentclass{beamer}                % Full presentation
-% \\documentclass[trans]{beamer}       % Transparency mode (no overlays)
-% \\PassOptionsToPackage{gray}{xcolor} % Force grey colours for printing
-% \\documentclass[handout]{beamer}     % Handout mode
-
+\\documentclass[10pt,xcolor={dvipsnames,x11names,svgnames}]{beamer} % trans
 
 \\usetheme[progressbar=frametitle]{metropolis}
 \\metroset{block=fill}
 
-
-\\usepackage{fontspec}
-\\setmainfont{Linux Biolinum O}
-\\setsansfont{Linux Biolinum O}
+\\usefonttheme{professionalfonts} 
+\\usepackage{unicode-math}
+\\setsansfont{Libertinus Sans}
 \\setmonofont{Inconsolata}[Scale=MatchLowercase]
+\\setmathfont{Libertinus Math}
 
-\hypersetup{
-	colorlinks=true,
-	linkcolor=,
-	urlcolor=mLightGreen
+\\hypersetup{
+  colorlinks=true,
+  linkcolor=,
+  urlcolor=Teal
+}
+
+\\usepackage{listings}
+\\lstset{%
+  basicstyle=\\ttfamily\\color{mLightBrown},
+  upquote=true,
+  keywordstyle=\\itshape\\color{FireBrick}
 }
 
 \usepackage{booktabs}
@@ -29,7 +31,6 @@
 \usepackage{appendixnumberbeamer}
 
 \\author{Matteo Sostero}
-\\authormail{Matteo Sostero}{m.sostero@sssup.it}
 \\institute{Sant'Anna School of Advanced Studies, Pisa}
 
 \\title{$1}
@@ -38,7 +39,10 @@
 
 \\begin{document}
 
-\\begin{frame}{$4}
+\\maketitle
+
+\\begin{frame}
+\\frametitle{$4}
 $5
 \\end{frame}
 
@@ -47,5 +51,5 @@ $5
 ]]></content>
 	<tabTrigger>beamer-metropolis</tabTrigger>
 	<scope>text.tex.latex</scope>
-	<description>Beamer Metropolis presentation preamble</description>
+	<description>Beamer Metropolis presentation template</description>
 </snippet>
