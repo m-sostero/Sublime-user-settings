@@ -3,5 +3,6 @@
 	"r":
 	{
 		"prog": "rstudio"
-	}
+	},
+    "conemuc": "C:/Program Files/ConEmu/ConEmu64.exe"
 }
