@@ -1,0 +1,6 @@
+// These settings override both User and Default settings for the MultiMarkdown syntax
+{
+	"color_scheme": "Packages/Color Scheme - Default/Breakers.tmTheme",
+	"caret_extra_top": 1,
+	"caret_extra_bottom": 1
+}

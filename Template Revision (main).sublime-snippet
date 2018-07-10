@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+# Revision overview
+
+- Manuscript ID: $1
+- Journal: $2
+- Manuscript: $3
+- Revision: ${4:first}
+---
+
+## Major points
+- (@$5): $6
+
+## Clarify-justify
+- $7
+
+## Easy fixes
+- $8
+
+]]></content>
+	<tabTrigger></tabTrigger>
+	<description>Revision: main file</description>
+	<scope>text.html.markdown.gfm</scope>
+</snippet>

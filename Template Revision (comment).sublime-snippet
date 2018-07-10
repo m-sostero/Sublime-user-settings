@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+# Reviewer ${1:1}
+
+- Manuscript ID: $2
+- Journal: $3
+- Manuscript: $4
+- Revision: ${5:first}
+- Reviewer: **$1**
+---
+
+## Comments to the Author
+
+$6
+]]></content>
+	<tabTrigger></tabTrigger>
+	<description>Revision: comments</description>
+	<scope>text.html.markdown.gfm</scope>
+</snippet>

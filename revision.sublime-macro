@@ -1,0 +1,13 @@
+[
+	{
+		"command": "new_file"
+	},
+	{
+		"command": "set_file_type",
+		"args": {"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage"},
+	},
+	{
+		"command": "insert_snippet",
+		"args": { "name": "Packages/User/Template Revision (main).sublime-snippet" }
+	}
+]
